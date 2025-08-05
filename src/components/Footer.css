@@ -1,0 +1,33 @@
+.footer {
+  background-color: rgb(126, 21, 21);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer .social-icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* <-- This creates space between the icons */
+}
+
+.footer a {
+  color: #fdfcfc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 18px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #f86903;
+}
+.footer .social-icons a {
+  font-size: 20px; /* Adjust size of social media icons */
+}
